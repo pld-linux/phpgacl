@@ -1,0 +1,12 @@
+use system Cache_Lite instead of bundled Cache_Lite-1.3.1
+--- phpgacl-3.3.4/Cache_Lite/Hashed_Cache_Lite.php~	2004-11-08 02:47:05.000000000 +0200
++++ phpgacl-3.3.4/Cache_Lite/Hashed_Cache_Lite.php	2006-03-12 19:34:02.000000000 +0200
+@@ -27,7 +27,7 @@
+  * http://phpgacl.sourceforge.net/
+  *
+  */
+-require_once(dirname(__FILE__) .'/Lite.php');
++require_once 'Cache/Lite.php';
+ 
+ define('DIR_SEP',DIRECTORY_SEPARATOR);
+ 

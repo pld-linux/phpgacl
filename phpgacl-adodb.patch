@@ -1,0 +1,11 @@
+--- phpgacl-3.3.4/gacl.class.php~	2004-11-29 05:38:39.000000000 +0200
++++ phpgacl-3.3.4/gacl.class.php	2006-03-12 19:26:01.000000000 +0200
+@@ -35,7 +35,7 @@
+  * Path to ADODB.
+  */
+ if ( !defined('ADODB_DIR') ) {
+-	define('ADODB_DIR', dirname(__FILE__).'/adodb');
++	define('ADODB_DIR', '/usr/share/php/adodb');
+ }
+ 
+ /**
