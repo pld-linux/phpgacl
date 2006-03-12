@@ -1,16 +1,20 @@
+# TODO
+# - unpack and install other_languages/perl/perlGACL-check-1.0.tar.gz
 Summary:	A PHP class offering a simple and powerful "drop in" permission system
 Summary(pl):	Klasa PHP oferuj±ca prosty i potê¿ny system uprawnieñ
 Name:		phpgacl
 Version:	3.3.4
-Release:	0.1
-Epoch:		0
+Release:	0.2
 License:	LGPL
 Group:		Development/Libraries
 Source0:	http://dl.sourceforge.net/phpgacl/%{name}-%{version}.tar.gz
 # Source0-md5:	6a5e1e02ea38fa55b57969bd161ec2e0
+Patch0:		%{name}-adodb.patch
+Patch1:		%{name}-cache_lite.patch
 URL:		http://phpgacl.sourceforge.net/
-Requires:	php >= 4
-Requires:	adodb
+Requires:	adodb >= 4.67-1.17
+Requires:	php-common >= 3:4.0.0
+Requires:	php-pear-Cache_Lite >= 1.3.1
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -45,6 +49,10 @@ To jest przyk³ad dostêpu z Perla do phpGACL.
 
 %prep
 %setup -q
+%patch0 -p1
+%patch1 -p1
+rm -rf adodb
+rm -f Cache_Lite/{LICENSE,Lite.php}
 
 %install
 rm -rf $RPM_BUILD_ROOT
