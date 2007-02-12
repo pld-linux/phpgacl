@@ -1,7 +1,7 @@
 # TODO
 # - unpack and install other_languages/perl/perlGACL-check-1.0.tar.gz
 Summary:	A PHP class offering a simple and powerful "drop in" permission system
-Summary(pl):	Klasa PHP oferuj±ca prosty i potê¿ny system uprawnieñ
+Summary(pl.UTF-8):   Klasa PHP oferujÄ…ca prosty i potÄ™Å¼ny system uprawnieÅ„
 Name:		phpgacl
 Version:	3.3.4
 Release:	0.2
@@ -27,25 +27,25 @@ control with simple management, and is very fast. It is written in PHP
 dynamically create web pages. The GACL part of phpGACL stands for
 Generic Access Control List.
 
-%description -l pl
-phpGACL to zestaw funkcji oferuj±cych kontrolê dostêpu do dowolnych
-obiektów (stron WWW, baz danych itp.) przez inne dowolne obiekty
-(u¿ytkowników, zdalne hosty itp.). Zapewnia on dobrze dopasowan±
-kontrolê dostêpu z prostym zarz±dzaniem i jest szybki. Zosta³ napisany
-w PHP (st±d nazwa phpGACL) - popularnym jêzyku skryptowym powszechnie
-u¿ywanym do dynamicznego tworzenia stron WWW. GACL z nazwy phpGACL
-oznacza "Generic Access Control List" (ogóln± listê kontroli dostêpu).
+%description -l pl.UTF-8
+phpGACL to zestaw funkcji oferujÄ…cych kontrolÄ™ dostÄ™pu do dowolnych
+obiektÃ³w (stron WWW, baz danych itp.) przez inne dowolne obiekty
+(uÅ¼ytkownikÃ³w, zdalne hosty itp.). Zapewnia on dobrze dopasowanÄ…
+kontrolÄ™ dostÄ™pu z prostym zarzÄ…dzaniem i jest szybki. ZostaÅ‚ napisany
+w PHP (stÄ…d nazwa phpGACL) - popularnym jÄ™zyku skryptowym powszechnie
+uÅ¼ywanym do dynamicznego tworzenia stron WWW. GACL z nazwy phpGACL
+oznacza "Generic Access Control List" (ogÃ³lnÄ… listÄ™ kontroli dostÄ™pu).
 
 %package perl
 Summary:	Perl access for phpGACL
-Summary(pl):	Dostêp z Perla do phpGACL
+Summary(pl.UTF-8):   DostÄ™p z Perla do phpGACL
 Group:		Development/Libraries
 
 %description perl
 This is example of Perl access for phpGACL.
 
-%description perl -l pl
-To jest przyk³ad dostêpu z Perla do phpGACL.
+%description perl -l pl.UTF-8
+To jest przykÅ‚ad dostÄ™pu z Perla do phpGACL.
 
 %prep
 %setup -q
