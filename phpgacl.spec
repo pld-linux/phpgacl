@@ -1,7 +1,7 @@
 # TODO
 # - unpack and install other_languages/perl/perlGACL-check-1.0.tar.gz
 Summary:	A PHP class offering a simple and powerful "drop in" permission system
-Summary(pl.UTF-8):   Klasa PHP oferująca prosty i potężny system uprawnień
+Summary(pl.UTF-8):	Klasa PHP oferująca prosty i potężny system uprawnień
 Name:		phpgacl
 Version:	3.3.4
 Release:	0.2
@@ -38,7 +38,7 @@ oznacza "Generic Access Control List" (ogólną listę kontroli dostępu).
 
 %package perl
 Summary:	Perl access for phpGACL
-Summary(pl.UTF-8):   Dostęp z Perla do phpGACL
+Summary(pl.UTF-8):	Dostęp z Perla do phpGACL
 Group:		Development/Libraries
 
 %description perl
